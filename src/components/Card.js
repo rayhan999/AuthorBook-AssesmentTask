@@ -25,7 +25,7 @@ const Card = ({ author }) => {
           <ILoveOutlined isFavourite={isFavourite}></ILoveOutlined>
         </div>
       </div>
-      <p className="mb-3 font-normal text-gray-700">{bio.slice(0, 100)}...</p>
+      <p className="mb-3 font-normal text-gray-700">{bio}</p>
     </div>
   );
 };
